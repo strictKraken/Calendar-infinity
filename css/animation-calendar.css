@@ -1,0 +1,55 @@
+.slide-item-to-right {
+  -webkit-animation-name: slide-item-to-right;
+          animation-name: slide-item-to-right;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.slide-item-to-left {
+  -webkit-animation-name: slide-item-to-left;
+          animation-name: slide-item-to-left;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes slide-item-to-left {
+  0% {
+    -webkit-transform: translate();
+            transform: translate();
+  }
+  100% {
+    -webkit-transform: translate(var(--slide));
+            transform: translate(var(--slide));
+  }
+}
+
+@keyframes slide-item-to-left {
+  0% {
+    -webkit-transform: translate();
+            transform: translate();
+  }
+  100% {
+    -webkit-transform: translate(var(--slide));
+            transform: translate(var(--slide));
+  }
+}
+@-webkit-keyframes slide-item-to-right {
+  0% {
+    -webkit-transform: translate();
+            transform: translate();
+  }
+  100% {
+    -webkit-transform: translate(var(--slide));
+            transform: translate(var(--slide));
+  }
+}
+@keyframes slide-item-to-right {
+  0% {
+    -webkit-transform: translate();
+            transform: translate();
+  }
+  100% {
+    -webkit-transform: translate(var(--slide));
+            transform: translate(var(--slide));
+  }
+}
